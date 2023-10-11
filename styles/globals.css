@@ -1,0 +1,46 @@
+:root {
+	--black: #3b434e;
+	--white: #fff;
+	--primary: #7351f5;
+	--primary-hover: #38228f;
+	--red: #fc836d;
+	--red-label: #de0000;
+	--red-light: #ee8484;
+	--green: #127a4f;
+	--green-light: #c8f8e4;
+	--gray: #a4a4a4;
+	--gray-light: #ebebeb;
+	--gray-dark: #6c7077;
+}
+
+.visualyHidden {
+	height: 0;
+	width: 0;
+	position: absolute;
+	opacity: 0;
+}
+
+
+html,
+body {
+	color: var(--black);
+	background: #F5F6F8;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
