@@ -1,0 +1,40 @@
+{
+  "name": "top-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "dev": "next dev",
+    "export": "next export",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "stylelint": "stylelint \"**/*.css\" --fix"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^8.0.1",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.18",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0",
+    "eslint": "8.46.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-config-next": "13.4.12",
+    "eslint-plugin-react-hooks": "^5.0.0-canary-7118f5dd7-20230705",
+    "framer-motion": "^10.16.4",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}
