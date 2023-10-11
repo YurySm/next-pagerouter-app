@@ -1,6 +1,6 @@
-## Частично учебное Next.js приложение c page router
+# Next.js приложение c page router
 
-# В нем использовано
+#№ В нем использовано
 - [Next.js](https://nextjs.org/docs)
 - TypeScript
 - React hooks(в том числе и useContext)
