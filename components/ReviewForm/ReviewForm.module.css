@@ -1,0 +1,82 @@
+.reviewForm {
+    display: grid;
+    grid-template-columns: [start] auto auto [b] 1fr [end];
+    gap: 22px 30px;
+}
+
+.textarea,
+.send {
+    grid-column: start / end;
+}
+
+.rating {
+    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+}
+
+.send span {
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.label {
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.success {
+    background: var(--green-light);
+}
+
+.error {
+    background: var(--red-light);
+}
+
+.error .close path {
+    stroke: var(--red-label);
+}
+
+.successTitle {
+    font-weight: 700;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: unset;
+    border: none;
+}
+
+@media screen and (width <= 1120px) {
+    .reviewForm {
+        grid-template-columns: [start] 1fr 1fr [end];
+    }
+
+    .rating {
+        grid-column: start / end;
+        justify-content: flex-start;
+        justify-self: start;
+    }
+
+    .title {
+        justify-self: start;
+    }
+}
+
+@media screen and (width <= 640px) {
+    .reviewForm {
+        grid-template-columns: [start] 1fr [end];
+    }
+}

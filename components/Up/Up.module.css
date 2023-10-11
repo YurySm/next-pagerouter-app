@@ -1,0 +1,19 @@
+.up {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--primary);
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.up:hover {
+    background-color: var(--primary-hover);
+}

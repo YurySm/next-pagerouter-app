@@ -1,0 +1,19 @@
+.h1 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.h2 {
+    margin: 50px 0 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #3b434e;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3b434e;
+    text-align: left;
+}
